@@ -1,0 +1,46 @@
+---
+title: "Machine Learning Course Project"
+author: "J. Hagedorn"
+date: "February 7, 2016"
+output: html_document
+---
+
+## Background
+
+We will be using data from accelerometers on the belt, forearm, arm, and dumbell of 6 participants who were asked to perform barbell lifts correctly and incorrectly in 5 different ways. 
+
+Our goal is to develop a model to predict the manner in which individuals performed a weight-lifting exercise (recorded in the `train$classe` variable).
+
+More information is available from the [website here](http://groupware.les.inf.puc-rio.br/har) (*see the section on the Weight Lifting Exercise Dataset*). 
+
+
+## Data
+
+First, we'll load the data:
+
+```{r}
+train <- read.csv("https://d396qusza40orc.cloudfront.net/predmachlearn/pml-training.csv")
+
+test <- read.csv("https://d396qusza40orc.cloudfront.net/predmachlearn/pml-testing.csv")
+```
+
+## Building the Model
+You may use any of the other variables to predict with. You should create a report describing how you built your model, 
+
+## Cross Validation
+how you used cross validation, 
+
+## Out-of-Sample Error
+what you think the expected out of sample error is, 
+
+## Notes on Choices
+and why you made the choices you did. 
+
+## Prediction
+You will also use your prediction model to predict 20 different test cases. 
+
+```{r}
+
+```
+
+Publish using [gh-pages](https://help.github.com/articles/creating-pages-with-the-automatic-generator/)
